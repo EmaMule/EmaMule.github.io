@@ -1,0 +1,133 @@
+# Site
+repository: EmaMule/EmaMule.github.io.git
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Emanuele Mule
+title: MS Student in Artificial Intelligence and Robotics
+email: emi.mule2001@gmail.com
+website: https://EmaMule.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username: EmaMule
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: emanuele-mule-9622b924b
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: "@alighasemi1095"
+#orcid_username: 0009-0009-2975-8222
+googlescholar_username: 9RuvXa0AAAAJ
+
+# Additional icon links
+# additional_links:
+#   - title: itsgoingto.be
+#     icon: fas fa-globe
+#     url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a last-year Master Student in Artificial Intelligence and Robotics at Sapienza University of Rome. My research interests include Deep Learning techiniques applied to Computer Vision, Reinforcement Learning and Natural Language Processing.
+  I am very passionate on what I do and I am always looking for new challenges and opportunities to learn and grow.
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak
+        title: Sapienza University of Rome
+        caption: 2023 - Current
+        sub_title: MSc AI & Robotics
+        description: | # this will include new lines to allow paragraphs
+          Currently pursuing a Master’s in Artificial Intelligence and Robotics (GPA: 29.36/30). My coursework includes Natural Language Processing, Machine Learning, Reinforcement Learning, and Deep Learning, focusing on AI applications. In Robotics, I have studied Robotics 1, Robotics 2, and Autonomous & Mobile Robotics, covering advanced concepts and real-world implementations.
+
+      - layout: left
+        title: Sharif University of Technology
+        caption: 2020 - 2023
+        sub_title: BSc Computer Engineering and Automatic Control
+        description: | # this will include new lines to allow paragraphs
+          Completed my Bachelor degree with 110/110 cum laude in Computer Engineering and Automatic Control. My coursework included Data Structures, Algorithms, Computer Architecture, and Operating Systems, focusing on software development and system design. I also studied Control Systems, gaining a strong foundation in automation and control theory.
+
+  - title: Publications
+    layout: text
+    content: |
+      [1] **Emanuele Mule**<sup>*</sup>, Matteo Pannacci<sup>*</sup>, Ali Ghasemi Goudarzi*<sup>*</sup>, Francesco Pro, Lorenzo Papa, Luca Maiano, and Irene Amerini. Enhancing ground-to-aerial image matching for visual misinformation detection using semantic segmentation, 2025. <a href="https://arxiv.org/pdf/2502.06288" target="_blank">📄</a>
+
+      <sup>*</sup>: Equal contribution
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Sapienza University of Rome
+        link: https://www.uniroma1.it/
+        link_text: uniroma1.it
+        sub_title: Research Assistant
+        caption: May 2024 - February 2025
+        description: | # this will include new lines to allow paragraphs
+          * Conducting research on the application of deep learning techniques to computer vision, focusing on image matching and visual misinformation detection.
+          * Developing and implementing deep learning models for semantic segmentation and image classification, using PyTorch and TensorFlow.
+          * Collaborating with other researchers to analyze and interpret experimental results, contributing to the publication of research papers.
+          * Presenting research findings at conferences and workshops, sharing insights and receiving feedback from the academic community.
+      - layout: left
+        title: Teaching Assistant
+        link: https://www.uniroma1.it/
+        link_text: uniroma1.it
+        sub_title: Teaching Assistant
+        caption: September 2022 - June 2023
+        description: | # this will include new lines to allow paragraphs
+          * Assisted professors in teaching undergraduate courses on computer vision, machine learning, and deep learning, providing guidance and support to students.
+          * Developed and graded assignments and exams, providing feedback to students to help them improve their understanding of course material.
+          * Conducted office hours and review sessions, answering questions and clarifying concepts to help students succeed in their coursework.
+          * Collaborated with professors to design and update course materials, ensuring that content was relevant and engaging for students.
+
+  - title: Language Skills
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: English
+        description: |
+          Fluent
+      - layout: left
+        title: Italian
+        description: Native
+      - layout: left
+        title: Albanian
+        description: Native
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
