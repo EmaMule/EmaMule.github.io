@@ -47,7 +47,7 @@ content:
         caption: 2020 - 2023
         sub_title: BSc Computer Engineering and Automatic Control
         description: | # this will include new lines to allow paragraphs
-          Completed my Bachelor degree with 110/110 cum laude in Computer Engineering and Automatic Control. My coursework included Data Structures, Algorithms, Computer Architecture, and Operating Systems, focusing on software development and system design. I also studied Control Systems, gaining a strong foundation in automation and control theory.
+          Completed my Bachelor degree with 110/110 cum laude in Computer and Control Engineering. My coursework included Data Structures, Algorithms, Computer Architecture, and Operating Systems, focusing on software development and system design. I also studied Control Systems, gaining a strong foundation in automation and control theory.
 
   - title: Publications
     layout: text
