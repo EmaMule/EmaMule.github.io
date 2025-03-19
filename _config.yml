@@ -93,9 +93,6 @@ content:
       - layout: left
         title: Italian
         description: Native
-      - layout: left
-        title: Albanian
-        description: Native
 
 # Footer
 footer_show_references: true
